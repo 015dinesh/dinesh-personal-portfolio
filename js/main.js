@@ -456,10 +456,10 @@ Conferred in recognition of outstanding performance, exceptional dedication, and
     }
 
     if (cmd === 'download') {
-      appendTerminalEntry(rawCmd, 'Initiating download of Dinesh_PU_Resume.docx...');
+      appendTerminalEntry(rawCmd, 'Initiating download of Dinesh P U_UpdatedResume.docx...');
       const downloadLink = document.createElement('a');
-      downloadLink.href = 'assets/docs/Dinesh_PU_Resume.docx';
-      downloadLink.download = 'Dinesh_PU_Resume.docx';
+      downloadLink.href = 'assets/docs/Dinesh P U_UpdatedResume.docx';
+      downloadLink.download = 'Dinesh P U_UpdatedResume.docx';
       downloadLink.click();
       showToast('Downloading resume...');
       terminalInput.value = '';
